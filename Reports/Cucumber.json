@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login Into The Application",
+        "description": "",
+        "id": "booking-a-room-in-adactin-application;login-into-the-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user Launch The Application",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user Enters The Username In \"sanamika\" Field",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user Enters The Password In \"Sanam@29\" Field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user Click On The Login Button And Navigate To The Search Hotel Page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Booking A Room In Adactin Application",
+    "description": "",
+    "id": "booking-a-room-in-adactin-application",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
